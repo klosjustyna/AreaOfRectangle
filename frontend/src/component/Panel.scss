@@ -1,0 +1,79 @@
+$basicColor:#0c5daa;
+.Panel{
+    width: 500px;
+    // height: 500px;
+    padding: 10px;
+    border-radius: 5px;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   
+
+    &__title{
+        font-size: 1.76em;
+        padding: 10px;
+        // margin-bottom: 15px;
+    }
+    &__box{
+        margin: 15px;
+        display: flex;
+        align-items: center;
+    }
+    &__answer{
+      text-align: center;
+      width: 100%;
+    }
+    &__all-results{
+        display: flex;
+        flex-direction: column;
+    }
+    &__records{
+        
+        margin: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        & i.fas.fa-angle-double-down {
+            margin: 10px;
+            cursor: pointer;
+        }
+        & div{
+            text-align: center;
+            padding: 5px;
+        }
+    }
+
+    & form {
+        display: flex;
+        flex-direction: column;
+        & label{
+            padding: 8px;
+            text-align: center;
+        }
+        & input{
+            border-radius: 7px;
+            border: none;
+            padding: 9px;
+            text-align: center;
+            box-shadow: 0px 5px 16px -8px $basicColor;  
+           
+        }
+
+        & input[type="submit"]{
+            cursor: pointer;
+            border-radius: 7px;
+            border: none;
+            color: white;
+            margin-top: 35px;
+            box-shadow: 0px 5px 16px -8px $basicColor;
+            background: $basicColor;
+            outline: none;
+            &:hover{
+                background: #105291;
+            }
+        }
+    }
+}

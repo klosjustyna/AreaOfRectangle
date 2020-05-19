@@ -1,0 +1,80 @@
+.Panel {
+  width: 500px;
+  height: 500px;
+  padding: 10px;
+  border-radius: 5px;
+  background: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.Panel__title {
+  font-size: 1.76em;
+  padding: 10px;
+}
+
+.Panel__box {
+  margin: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.Panel__answer {
+  text-align: center;
+  width: 100%;
+}
+
+.Panel form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.Panel form label {
+  padding: 8px;
+  text-align: center;
+}
+
+.Panel form input {
+  border-radius: 7px;
+  border: none;
+  padding: 9px;
+  text-align: center;
+  -webkit-box-shadow: 0px 5px 16px -8px #0c5daa;
+          box-shadow: 0px 5px 16px -8px #0c5daa;
+}
+
+.Panel form input[type="submit"] {
+  border-radius: 7px;
+  border: none;
+  color: white;
+  margin-top: 35px;
+  -webkit-box-shadow: 0px 5px 16px -8px #0c5daa;
+          box-shadow: 0px 5px 16px -8px #0c5daa;
+  background: #0c5daa;
+  outline: none;
+}
+
+.Panel form input[type="submit"]:hover {
+  background: #105291;
+}
+/*# sourceMappingURL=Panel.css.map */
