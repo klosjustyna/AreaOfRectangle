@@ -1,4 +1,4 @@
-Simple app counts area of rectangle, to learning technologies
+Simple app counts area of rectangle
 
 frontend: react with axios,
 
